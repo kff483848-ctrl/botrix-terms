@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Politique de Confidentialité de Botrix System">
+  <title>Botrix System — Politique de Confidentialité</title>
+  <style>
+    :root{
+      --bg:#080b12;--panel:#101522;--text:#f4f7fb;--muted:#a8b1c2;
+      --accent:#5865f2;--border:rgba(255,255,255,.08);
+      --shadow:0 20px 60px rgba(0,0,0,.35)
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;color:var(--text);line-height:1.75;
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      background:radial-gradient(circle at 15% 0%,rgba(88,101,242,.20),transparent 30%),
+                 radial-gradient(circle at 85% 10%,rgba(114,137,255,.10),transparent 28%),var(--bg)
+    }
+    a{color:#9da8ff;text-decoration:none} a:hover{text-decoration:underline}
+    .container{width:min(1080px,92%);margin:auto}
+    header{padding:72px 0 48px;border-bottom:1px solid var(--border)}
+    .brand{display:inline-flex;align-items:center;gap:12px;font-weight:800;font-size:20px}
+    .logo{
+      width:44px;height:44px;border-radius:14px;display:grid;place-items:center;
+      background:linear-gradient(135deg,var(--accent),#3b43a6);
+      box-shadow:0 12px 35px rgba(88,101,242,.35);font-weight:900
+    }
+    h1{font-size:clamp(38px,6vw,64px);line-height:1.05;margin:32px 0 14px}
+    .subtitle{color:var(--muted);font-size:18px;max-width:720px}
+    .updated{
+      display:inline-block;margin-top:22px;padding:8px 13px;border:1px solid var(--border);
+      border-radius:999px;background:rgba(255,255,255,.035);color:#cbd2df;font-size:14px
+    }
+    .layout{display:grid;grid-template-columns:250px 1fr;gap:28px;padding:42px 0 70px}
+    aside{
+      position:sticky;top:22px;align-self:start;padding:18px;border:1px solid var(--border);
+      background:rgba(16,21,34,.72);backdrop-filter:blur(12px);border-radius:18px;box-shadow:var(--shadow)
+    }
+    aside strong{display:block;margin-bottom:10px}
+    aside a{display:block;padding:7px 8px;color:var(--muted);font-size:14px;border-radius:8px}
+    aside a:hover{background:rgba(88,101,242,.12);color:white;text-decoration:none}
+    main{
+      padding:34px;border:1px solid var(--border);
+      background:linear-gradient(180deg,rgba(16,21,34,.94),rgba(12,17,28,.94));
+      border-radius:22px;box-shadow:var(--shadow)
+    }
+    section{padding:8px 0 26px;border-bottom:1px solid var(--border);margin-bottom:26px}
+    section:last-child{border-bottom:0;margin-bottom:0}
+    h2{font-size:24px;margin:0 0 12px}
+    p{color:#d5dbe6;margin:9px 0}
+    ul{color:#d5dbe6;padding-left:22px} li{margin:7px 0}
+    .notice{
+      padding:18px 20px;border:1px solid rgba(88,101,242,.28);
+      background:rgba(88,101,242,.09);border-radius:15px;margin:24px 0
+    }
+    .card{
+      padding:18px;border:1px solid var(--border);border-radius:14px;
+      background:rgba(255,255,255,.025);margin-top:16px
+    }
+    .card span{display:block;color:var(--muted);font-size:13px;margin-bottom:4px}
+    footer{border-top:1px solid var(--border);padding:28px 0 42px;color:var(--muted);font-size:14px}
+    @media(max-width:820px){
+      .layout{grid-template-columns:1fr} aside{position:relative;top:auto}
+      main{padding:23px} header{padding-top:48px}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="brand"><div class="logo">B</div><span>Botrix System</span></div>
+    <h1>Politique de Confidentialité</h1>
+    <p class="subtitle">Découvrez quelles informations Botrix System peut traiter, pourquoi elles sont utilisées et quels choix sont disponibles.</p>
+    <div class="updated">Dernière mise à jour : 25 septembre 2026</div>
+  </div>
+</header>
+
+<div class="container layout">
+  <aside>
+    <strong>Sommaire</strong>
+    <a href="#intro">1. Introduction</a>
+    <a href="#collecte">2. Informations collectées</a>
+    <a href="#utilisation">3. Utilisation</a>
+    <a href="#stockage">4. Stockage et conservation</a>
+    <a href="#partage">5. Partage</a>
+    <a href="#discord">6. Discord et tiers</a>
+    <a href="#securite">7. Sécurité</a>
+    <a href="#droits">8. Vos choix</a>
+    <a href="#suppression">9. Suppression</a>
+    <a href="#mineurs">10. Mineurs</a>
+    <a href="#modifications">11. Modifications</a>
+    <a href="#contact">12. Contact</a>
+  </aside>
+
+  <main>
+    <div class="notice">
+      Cette Politique de Confidentialité explique comment <strong>Botrix System</strong> traite les informations nécessaires au fonctionnement de ses fonctionnalités Discord.
+    </div>
+
+    <section id="intro">
+      <h2>1. Introduction</h2>
+      <p>Botrix System (« Bot », « Service », « nous ») est un bot Discord destiné à fournir des outils de gestion, de modération, de support, d’automatisation et d’autres fonctionnalités aux serveurs Discord.</p>
+      <p>Cette politique s’applique aux informations traitées lorsque vous utilisez Botrix System ou lorsqu’il est installé sur un serveur Discord.</p>
+    </section>
+
+    <section id="collecte">
+      <h2>2. Informations pouvant être collectées</h2>
+      <p>Selon les fonctionnalités activées, Botrix System peut traiter les informations suivantes :</p>
+      <ul>
+        <li>Identifiants Discord des utilisateurs ;</li>
+        <li>Identifiants des serveurs, salons et rôles ;</li>
+        <li>Informations nécessaires à la configuration du serveur ;</li>
+        <li>Données nécessaires aux tickets, giveaways, modération ou autres fonctionnalités ;</li>
+        <li>Informations techniques nécessaires au fonctionnement et à la sécurité du Service.</li>
+      </ul>
+      <p>Botrix System ne demande pas volontairement les mots de passe Discord, tokens de compte ou informations d’authentification des utilisateurs.</p>
+    </section>
+
+    <section id="utilisation">
+      <h2>3. Comment les informations sont utilisées</h2>
+      <p>Les informations peuvent être utilisées afin de :</p>
+      <ul>
+        <li>Fournir les fonctionnalités demandées ;</li>
+        <li>Conserver les paramètres d’un serveur ;</li>
+        <li>Faire fonctionner les systèmes de tickets et de support ;</li>
+        <li>Gérer les giveaways et fonctionnalités associées ;</li>
+        <li>Appliquer certaines actions de modération configurées par les administrateurs ;</li>
+        <li>Prévenir les abus, erreurs et problèmes de sécurité ;</li>
+        <li>Améliorer la fiabilité et le fonctionnement du Service.</li>
+      </ul>
+    </section>
+
+    <section id="stockage">
+      <h2>4. Stockage et conservation</h2>
+      <p>Certaines informations peuvent être stockées afin que les fonctionnalités de Botrix System continuent de fonctionner après une déconnexion ou un redémarrage du Bot.</p>
+      <p>La durée de conservation dépend du type de donnée et de la fonctionnalité concernée. Nous cherchons à conserver les informations uniquement pendant la durée nécessaire à leur utilisation ou à des fins légitimes de sécurité et de fonctionnement.</p>
+    </section>
+
+    <section id="partage">
+      <h2>5. Partage des informations</h2>
+      <p>Botrix System ne vend pas volontairement les informations personnelles des utilisateurs.</p>
+      <p>Les informations peuvent être accessibles aux personnes qui disposent déjà des permissions nécessaires dans un serveur Discord, par exemple les administrateurs ou membres du personnel pouvant consulter un ticket.</p>
+      <p>Des informations peuvent également être traitées par des fournisseurs techniques nécessaires au fonctionnement du Service, dans la mesure où cela est nécessaire.</p>
+    </section>
+
+    <section id="discord">
+      <h2>6. Discord et services tiers</h2>
+      <p>Botrix System utilise l’infrastructure et les API de Discord. Discord peut traiter certaines informations conformément à ses propres politiques et conditions.</p>
+      <p>Botrix System peut également dépendre de services d’hébergement ou d’autres fournisseurs techniques. Ces services peuvent disposer de leurs propres politiques de confidentialité.</p>
+      <p>Botrix System n’est pas responsable des pratiques de confidentialité de services tiers qu’il ne contrôle pas.</p>
+    </section>
+
+    <section id="securite">
+      <h2>7. Sécurité</h2>
+      <p>Nous mettons en œuvre des mesures raisonnables destinées à protéger les informations traitées par Botrix System contre les accès non autorisés, la perte ou l’utilisation abusive.</p>
+      <p>Aucun service en ligne ne peut toutefois garantir une sécurité absolue. Les utilisateurs et administrateurs doivent également protéger leurs comptes, permissions et informations d’authentification.</p>
+    </section>
+
+    <section id="droits">
+      <h2>8. Vos choix</h2>
+      <p>Vous pouvez arrêter d’utiliser Botrix System à tout moment et demander au propriétaire d’un serveur de retirer le Bot.</p>
+      <p>Selon les données concernées et la loi applicable, vous pouvez également demander l’accès, la correction ou la suppression de certaines informations.</p>
+    </section>
+
+    <section id="suppression">
+      <h2>9. Demande de suppression</h2>
+      <p>Pour demander la suppression de données associées à Botrix System, contactez l’équipe du Service en fournissant suffisamment d’informations pour identifier les données concernées.</p>
+      <p>Certaines données peuvent être conservées lorsqu’une conservation est nécessaire pour des raisons légales, de sécurité, de prévention des abus ou de fonctionnement technique.</p>
+    </section>
+
+    <section id="mineurs">
+      <h2>10. Utilisateurs mineurs</h2>
+      <p>Botrix System est un service fonctionnant sur Discord. Les utilisateurs doivent respecter les conditions d’âge et les règles applicables de Discord ainsi que les lois de leur juridiction.</p>
+      <p>Nous ne cherchons pas volontairement à collecter des informations supplémentaires auprès de mineurs.</p>
+    </section>
+
+    <section id="modifications">
+      <h2>11. Modifications de cette Politique</h2>
+      <p>Cette Politique de Confidentialité peut être mise à jour afin de refléter des changements dans Botrix System, ses fonctionnalités, ses fournisseurs techniques ou les exigences légales applicables.</p>
+      <p>La date de dernière mise à jour est indiquée en haut de cette page.</p>
+    </section>
+
+    <section id="contact">
+      <h2>12. Contact</h2>
+      <p>Pour toute question concernant cette Politique de Confidentialité ou une demande relative aux données, contactez l’équipe Botrix System.</p>
+      <div class="card">
+        <span>Contact</span>
+        <a href="mailto:contact@botrix.systems">contact@botrix.systems</a>
+      </div>
+      <div class="card">
+        <span>Serveur Discord officiel</span>
+        <a href="#" onclick="return false;">À ajouter</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Résumé</h2>
+      <p>Botrix System traite uniquement les informations nécessaires à ses fonctionnalités, à la sécurité et au fonctionnement du Service, dans les limites décrites dans cette Politique.</p>
+    </section>
+  </main>
+</div>
+
+<footer>
+  <div class="container">© 2026 Botrix System — Tous droits réservés.</div>
+</footer>
+</body>
+</html>
